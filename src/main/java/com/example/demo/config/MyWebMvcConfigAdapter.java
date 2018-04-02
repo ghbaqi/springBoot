@@ -34,6 +34,7 @@ public class MyWebMvcConfigAdapter extends WebMvcConfigurerAdapter {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/user/toLogin").setViewName("login");
+        registry.addViewController("/learn").setViewName("learn-resource");
         super.addViewControllers(registry);
     }
 
