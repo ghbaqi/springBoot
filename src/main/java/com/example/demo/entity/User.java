@@ -1,9 +1,11 @@
 package com.example.demo.entity;
 
+import java.io.Serializable;
+
 /**
  * Created by tengj on 2017/3/29.
  */
-public class User {
+public class User implements Serializable {
     private String userName;
     private String password;
 

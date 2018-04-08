@@ -23,7 +23,7 @@ public class UserController {
         if ("root".equals(userName) && "root".equals(password)) {
             map.put("result", "1");
             User user = new User(userName, password);
-            request.getSession().setAttribute("user",user);
+            request.getSession().setAttribute("user",user);  // 此时的 session 已经存到 Redis 中了 ！！！
         } else {
             map.put("result", "0");
         }
