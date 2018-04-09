@@ -35,6 +35,8 @@ public class MyWebMvcConfigAdapter extends WebMvcConfigurerAdapter {
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/user/toLogin").setViewName("login");
         registry.addViewController("/learn").setViewName("learn-resource");
+        registry.addViewController("/file/toupload").setViewName("upload");  // 跳转到上传页面
+        registry.addViewController("/file/uploadresult").setViewName("uploadresult");  // 跳转上传结果页面
         super.addViewControllers(registry);
     }
 
