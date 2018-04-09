@@ -2,14 +2,11 @@ package com.example.demo.activemq;
 
 import org.apache.activemq.command.ActiveMQQueue;
 import org.springframework.jms.core.JmsMessagingTemplate;
-import org.springframework.stereotype.Component;
 
-import javax.annotation.Resource;
-
-@Component
+//@Component
 public class Producer {
 
-    @Resource
+//    @Resource
     private JmsMessagingTemplate template;
 
     public void sendMsg(String msg, String destination) {
