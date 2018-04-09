@@ -8,3 +8,4 @@
 1. redis 的使用
 2. 分布式环境下 session 共享方案
 3. 整合 rabbitmq 。交换机 绑定 routingkey 队列
+4. 简单定时任务 schedule
