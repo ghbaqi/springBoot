@@ -10,3 +10,4 @@
 3. 整合 rabbitmq 。交换机 绑定 routingkey 队列
 4. 简单定时任务 schedule
 5. 表单文件上传
+6. 集成 fastdfs

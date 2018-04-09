@@ -127,6 +127,13 @@
             <artifactId>spring-session-data-redis</artifactId>
         </dependency>
 
+        <!--fastdfs-->
+        <dependency>
+            <groupId>net.oschina.zcx7878</groupId>
+            <artifactId>fastdfs-client-java</artifactId>
+            <version>1.27.0.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
