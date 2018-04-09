@@ -11,4 +11,5 @@
 4. 简单定时任务 schedule
 5. 表单文件上传
 6. 集成 fastdfs
-7. 集成 actuator 监控微服务
+7. 集成 actuator 监控微服务 ： 应用状态、内存、线程、堆栈
+8. spring boot admin 监控微服务
